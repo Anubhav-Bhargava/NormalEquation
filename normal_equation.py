@@ -12,9 +12,7 @@ theta=np.random.rand(n)
 print "Initial value of weights" 
 print theta
 
-h=np.dot(x.T,x)
-theta=np.dot(np.linalg.inv(h),x.T)
-theta=np.dot(theta,y)
+theta=np.dot(np.dot(np.linalg.inv(np.dot(x.T,x)),x.T),y)
 
 print "Final value of weights"
 print theta
