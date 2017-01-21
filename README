@@ -1,0 +1,22 @@
+This is the Python implementation of the Normal Equation algorithm.
+This algorithm is a faster way to get the proper value of weights as compared to the Gradient Descent algorithm.
+Here it is used to train the neural network to add two numbers.
+
+Dependencies:-
+Numpy
+
+Execution 
+To run the example, simpy run normal_equation.py file using python
+python normal_equation.py
+
+The output will look like this:-
+
+Initial value of weights
+[ 0.4359949   0.02592623]
+Final value of weights
+[ 1.  1.]
+Addition of 34 and 6 is equal to
+[ 40.]
+
+
+
